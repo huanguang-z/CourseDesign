@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color_login"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.pony.view.ListviewForScrollView
+                android:id="@+id/mListMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:divider="@color/bg_color_login"
+                android:dividerHeight="1dp"
+                android:listSelector="@drawable/listview"
+                android:scrollbars="none" >
+            </com.pony.view.ListviewForScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10.5dp"
+        android:layout_marginRight="15.5dp" >
+
+        <Button
+            android:id="@+id/mbtnLeave"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/xiuxi_icon" />
+
+        <Button
+            android:id="@+id/mbtnSign"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/sign_icon"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

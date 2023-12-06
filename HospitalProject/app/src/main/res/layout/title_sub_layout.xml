@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/launcher_item_select"
+    android:orientation="vertical" >
+
+    <include layout="@layout/login_actionbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/mTvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Pony"
+            android:textColor="@color/white_normal"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/mIvBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="2dp"
+            android:padding="10dp"
+            android:src="@drawable/action_bar_back"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/mIvStu"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:text="评论"
+            android:textColor="#ffffff"
+          />
+    </RelativeLayout>
+
+</LinearLayout>

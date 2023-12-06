@@ -1,0 +1,250 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color_login"
+    android:orientation="vertical"
+    tools:context=".UnLoginActiviy" >
+
+    <LinearLayout
+        android:id="@+id/mll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <include
+            android:id="@+id/rl_title"
+            layout="@layout/title_layout" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/mllbottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/mbtnPay"
+            android:layout_width="90dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:background="@color/main_color"
+            android:text="确定预约"
+            android:textColor="#ffffff" />
+        <Button
+            android:id="@+id/mbtnreview"
+            android:layout_width="90dp"
+            android:layout_height="fill_parent"
+            android:layout_toLeftOf="@id/mbtnPay"
+            android:layout_marginRight="1dp"
+            android:background="@color/main_color"
+            android:text="查看评价"
+            android:textColor="#ffffff" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_toLeftOf="@id/mbtnreview"
+            android:gravity="center_vertical|center_horizontal" >
+
+            <TextView
+                android:id="@+id/mtvShopPrice"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="请选择就诊人"
+                android:textColor="#ff0000"
+                android:textSize="14dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/mllbottom"
+        android:layout_below="@id/mll"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/departmentHosName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="departmentHosName"
+                    android:textColor="#333333"
+                    android:textSize="16dp" />
+
+                <com.pony.view.RoundedCornerImageView
+                    android:id="@+id/mivUserImage"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/doctor_4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mllInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff"
+                android:orientation="vertical" >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1sp"
+                    android:background="@color/bg_color_login" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="15dp" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/doctorName"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:lineSpacingExtra="3dp"
+                            android:text="doctorName"
+                            android:textColor="#666666"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/doctorSex"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+
+                            android:visibility="gone"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|right"
+                            android:lineSpacingExtra="3dp"
+                            android:text="doctorSex"
+                            android:textColor="#666666"
+                            android:textSize="14dp" />
+                        <TextView
+                            android:id="@+id/departmentName"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|right"
+                            android:lineSpacingExtra="3dp"
+                            android:text="departmentName"
+                            android:textColor="#666666"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:visibility="gone"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/doctorYear"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:lineSpacingExtra="3dp"
+                            android:text="doctorYear"
+                            android:textColor="#666666"
+                            android:textSize="14dp" />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/doctorMoney"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:lineSpacingExtra="3dp"
+                            android:text="doctorYear"
+                            android:textColor="#666666"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/doctorLevel"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|right"
+                            android:lineSpacingExtra="3dp"
+                            android:text="departmentName"
+                            android:textColor="#666666"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1sp"
+                    android:background="@color/bg_color_login" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center_vertical"
+                    android:text="医生简介："
+                    android:textColor="#333333"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/doctorMessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="3dp"
+                    android:padding="15dp"
+                    android:text="今日何日兮，得与王子同舟。蒙羞被好兮，不訾诟耻。心几烦而不绝兮，得知王子。"
+                    android:textColor="#666666"
+                    android:textSize="14dp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center_vertical"
+                    android:text="预约时间："
+                    android:textColor="#333333"
+                    android:textSize="14dp" />
+
+                <com.pony.view.ListviewForScrollView
+                    android:id="@+id/mListMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:divider="@color/bg_color_login"
+                    android:dividerHeight="1dp"
+                    android:listSelector="@drawable/listview"
+                    android:scrollbars="none" >
+                </com.pony.view.ListviewForScrollView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

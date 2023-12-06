@@ -1,0 +1,4 @@
+#Sat Dec 02 21:32:02 CST 2023
+base.0=E\:\\androidcode\\code\\HospitalProject\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
+path.0=classes.dex
+renamed.0=classes.dex

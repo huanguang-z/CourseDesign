@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:alpha="0.9"
+    android:orientation="vertical"
+    tools:context=".UnLoginActiviy" >
+
+    <TextView
+        android:id="@+id/zoom_msg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="北京"
+        android:textColor="#54B0E9"
+        android:textSize="14sp" />
+
+</LinearLayout>

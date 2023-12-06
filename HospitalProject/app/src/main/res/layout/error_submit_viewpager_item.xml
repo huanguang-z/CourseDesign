@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color_login" >
+
+    <TextView
+        android:id="@+id/vote_submit_title"
+        style="@style/vote_submit_title"
+        android:layout_width="match_parent"
+        android:text="&lt;设置问卷调查标题>"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/mbtnColect"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/select_green"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="答案"
+                android:textColor="@drawable/select_green_wenzi"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/mbtndelete"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/select_red"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="删除"
+                android:textColor="@drawable/select_red_wenzi"
+                android:textSize="15dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/vote_submit_linear_previous"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/select_kong"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="上一题"
+                android:textColor="@drawable/select_submit_hw_wenzi"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/vote_submit_linear_next"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/select_kong"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="下一题"
+                android:textColor="@drawable/select_submit_hw_wenzi"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/vote_submit_relative"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:visibility="gone" >
+
+        <LinearLayout
+            style="@style/vote_submit_btn_linear"
+            android:layout_alignParentLeft="true" >
+
+            <ImageView
+                style="@style/vote_submit_btn_image"
+                android:src="@drawable/vote_submit_arrow_previous" />
+
+            <TextView
+                style="@style/vote_submit_btn_text"
+                android:text="上一步" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/vote_submit_btn_linear"
+            android:layout_alignParentRight="true" >
+
+            <TextView
+                android:id="@+id/vote_submit_next_text"
+                style="@style/vote_submit_btn_text"
+                android:text="下一步" />
+
+            <ImageView
+                android:id="@+id/vote_submit_next_image"
+                style="@style/vote_submit_btn_image"
+                android:src="@drawable/vote_submit_arrow_next" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/vote_submit_question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#ffffff"
+                android:padding="15dp"
+                android:lineSpacingExtra="5dp"
+                android:text="你需要调查的问题？"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <ListView
+                android:id="@+id/vote_submit_listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:divider="#00000000"
+                android:dividerHeight="5dp"
+                android:listSelector="#00000000"
+                android:padding="10dp"
+                android:scrollbars="none" >
+            </ListView>
+
+            <Button
+                android:id="@+id/mbtnResult"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:visibility="gone"
+                android:background="@drawable/btn_no"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="回答正确"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

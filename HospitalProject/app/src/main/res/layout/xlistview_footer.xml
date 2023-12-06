@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/xlistview_footer_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="12dp" >
+
+    <com.pony.view.LoadingView
+        android:id="@+id/xlistview_footer_progressbar"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_margin="4dp" />
+
+    <TextView
+        android:id="@+id/xlistview_footer_hint_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/xlistview_header_hint_loading"
+        android:textColor="@color/forums_content" />
+
+</LinearLayout>

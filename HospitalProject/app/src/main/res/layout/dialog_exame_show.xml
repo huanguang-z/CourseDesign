@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_dialog"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/mtvScore"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:lineSpacingExtra="5dp"
+                android:text="得分：2分"
+                android:textColor="#af222222"
+                android:textSize="15dp" />
+            
+            <TextView
+                android:id="@+id/mtvResultState"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:lineSpacingExtra="5dp"
+                android:text="很遗憾,未能通过考核"
+                android:textColor="#af222222"
+                android:textSize="15dp" />
+            
+            <TextView
+                android:id="@+id/mtvResult"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:lineSpacingExtra="5dp"
+                android:text="共:100题 正确:2题 错误:98题"
+                android:textColor="#af222222"
+                android:textSize="15dp" />
+            
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#cccccc" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp" >
+
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    android:focusable="false" >
+
+                    <Button
+                        android:id="@+id/submit_ok"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/select_sub_hw"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="确定"
+                        android:textColor="#8f333333"
+                        android:textSize="15dp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

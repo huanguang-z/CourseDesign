@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <ImageView
+        android:id="@+id/vote_submit_select_image"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/vote_submit_normal" />
+
+    <TextView
+        android:id="@+id/vote_submit_select_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="您给出的回答选项？"
+        android:textColor="@color/black" />
+
+</LinearLayout>

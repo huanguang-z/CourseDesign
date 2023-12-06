@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_normal" >
+
+    <RelativeLayout
+        android:id="@+id/ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="44dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/main_color"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_selected"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="信息查看"
+                android:textColor="@drawable/main_title_txt_sel" />
+
+            <TextView
+                android:id="@+id/tv_subscribe"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="信息申报"
+                android:textColor="@drawable/main_title_txt_sel" />
+
+            <TextView
+                android:id="@+id/tv_find"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="企业信息"
+                android:textColor="@drawable/main_title_txt_sel" />
+        </LinearLayout>
+        
+
+        <View
+            android:id="@+id/view_indicator"
+            android:layout_width="15dp"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            
+            
+            android:background="@color/white_normal" />
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_title" />
+
+</RelativeLayout>

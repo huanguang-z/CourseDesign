@@ -1,0 +1,87 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+gson-2.2.4.jar => com.google.code.gson:gson:2.2.4
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.4.jar => version 2.2.4 in com.google.code.gson:gson:2.2.4
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* libs\afinal_0.5.1_bin.jar => app\libs\afinal_0.5.1_bin.jar
+* libs\AMap_Location_V3.1.0_20161027.jar => app\libs\AMap_Location_V3.1.0_20161027.jar
+* libs\AMapNavi_1.9.4_20161201.jar => app\libs\AMapNavi_1.9.4_20161201.jar
+* libs\Android_Map3D_SDK_V4.1.2_20161104.jar => app\libs\Android_Map3D_SDK_V4.1.2_20161104.jar
+* libs\arm64-v8a\libgdinamapv4sdk752.so => app\src\main\jniLibs\arm64-v8a\libgdinamapv4sdk752.so
+* libs\arm64-v8a\libgdinamapv4sdk752ex.so => app\src\main\jniLibs\arm64-v8a\libgdinamapv4sdk752ex.so
+* libs\arm64-v8a\libjcore110.so => app\src\main\jniLibs\arm64-v8a\libjcore110.so
+* libs\armeabi-v7a\libjcore110.so => app\src\main\jniLibs\armeabi-v7a\libjcore110.so
+* libs\armeabi\libgdinamapv4sdk752.so => app\src\main\jniLibs\armeabi\libgdinamapv4sdk752.so
+* libs\armeabi\libgdinamapv4sdk752ex.so => app\src\main\jniLibs\armeabi\libgdinamapv4sdk752ex.so
+* libs\armeabi\libjcore110.so => app\src\main\jniLibs\armeabi\libjcore110.so
+* libs\armeabi\libmsc.so => app\src\main\jniLibs\armeabi\libmsc.so
+* libs\armeabi\libtbt3631.so => app\src\main\jniLibs\armeabi\libtbt3631.so
+* libs\armeabi\libwtbt145.so => app\src\main\jniLibs\armeabi\libwtbt145.so
+* libs\classes.jar => app\libs\classes.jar
+* libs\commons-net-3.0.1.jar => app\libs\commons-net-3.0.1.jar
+* libs\hellocharts-library-1.5.8.jar => app\libs\hellocharts-library-1.5.8.jar
+* libs\jcore-android_v1.1.0.jar => app\libs\jcore-android_v1.1.0.jar
+* libs\jpush-android_v3.0.1.jar => app\libs\jpush-android_v3.0.1.jar
+* libs\mips64\libjcore110.so => app\src\main\jniLibs\mips64\libjcore110.so
+* libs\mips\libjcore110.so => app\src\main\jniLibs\mips\libjcore110.so
+* libs\Msc.jar => app\libs\Msc.jar
+* libs\picasso-2.4.0.jar => app\libs\picasso-2.4.0.jar
+* libs\string_encrypt.jar => app\libs\string_encrypt.jar
+* libs\universal-image-loader-1.9.3.jar => app\libs\universal-image-loader-1.9.3.jar
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

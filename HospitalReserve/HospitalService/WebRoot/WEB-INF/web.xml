@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterAction</servlet-name>
+    <servlet-class>com.student.data.action.RegisterAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentAction</servlet-name>
+    <servlet-class>com.student.data.action.StudentAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TeacherAction</servlet-name>
+    <servlet-class>com.student.data.action.TeacherAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CourseAction</servlet-name>
+    <servlet-class>com.student.data.action.CourseAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SignAction</servlet-name>
+    <servlet-class>com.student.data.action.SignAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LeaveAction</servlet-name>
+    <servlet-class>com.student.data.action.LeaveAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TypeAction</servlet-name>
+    <servlet-class>com.student.data.action.TypeAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ScoreAction</servlet-name>
+    <servlet-class>com.student.data.action.ScoreAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NoticeAction</servlet-name>
+    <servlet-class>com.student.data.action.NoticeAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DoctorAction</servlet-name>
+    <servlet-class>com.student.data.action.DoctorAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AppointmentAction</servlet-name>
+    <servlet-class>com.student.data.action.AppointmentAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReviewAction</servlet-name>
+    <servlet-class>com.student.data.action.ReviewAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MeetingRoomAction</servlet-name>
+    <servlet-class>com.student.data.action.MeetingRoomAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AppointmentRoomAction</servlet-name>
+    <servlet-class>com.student.data.action.AppointmentRoomAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommunityAction</servlet-name>
+    <servlet-class>com.student.data.action.CommunityAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FileImageUploadServlet</servlet-name>
+    <servlet-class>com.student.data.action.FileImageUploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MembersAction</servlet-name>
+    <servlet-class>com.student.data.action.MembersAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JpushAction</servlet-name>
+    <servlet-class>com.student.data.action.JpushAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderAction</servlet-name>
+    <servlet-class>com.student.data.action.OrderAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HospitalAction</servlet-name>
+    <servlet-class>com.student.data.action.HospitalAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HospitalAction</servlet-name>
+    <url-pattern>/servlet/HospitalAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderAction</servlet-name>
+    <url-pattern>/servlet/OrderAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterAction</servlet-name>
+    <url-pattern>/servlet/RegisterAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentAction</servlet-name>
+    <url-pattern>/servlet/StudentAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TeacherAction</servlet-name>
+    <url-pattern>/servlet/TeacherAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CourseAction</servlet-name>
+    <url-pattern>/servlet/CourseAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SignAction</servlet-name>
+    <url-pattern>/servlet/SignAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LeaveAction</servlet-name>
+    <url-pattern>/servlet/LeaveAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TypeAction</servlet-name>
+    <url-pattern>/servlet/TypeAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ScoreAction</servlet-name>
+    <url-pattern>/servlet/ScoreAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NoticeAction</servlet-name>
+    <url-pattern>/servlet/NoticeAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoctorAction</servlet-name>
+    <url-pattern>/servlet/DoctorAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AppointmentAction</servlet-name>
+    <url-pattern>/servlet/AppointmentAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReviewAction</servlet-name>
+    <url-pattern>/servlet/ReviewAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MeetingRoomAction</servlet-name>
+    <url-pattern>/servlet/MeetingRoomAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AppointmentRoomAction</servlet-name>
+    <url-pattern>/servlet/AppointmentRoomAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommunityAction</servlet-name>
+    <url-pattern>/servlet/CommunityAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileImageUploadServlet</servlet-name>
+    <url-pattern>/servlet/FileImageUploadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MembersAction</servlet-name>
+    <url-pattern>/servlet/MembersAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JpushAction</servlet-name>
+    <url-pattern>/servlet/JpushAction</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

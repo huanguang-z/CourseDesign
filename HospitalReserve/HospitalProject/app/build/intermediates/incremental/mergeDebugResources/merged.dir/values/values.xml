@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="boolean" name="centered"/>
+    <attr format="dimension" name="rightPadding"/>
+    <attr format="color" name="selectedColor"/>
+    <attr format="dimension" name="strokeWidth"/>
+    <attr format="color" name="unselectedColor"/>
+    <bool name="isSw600">false</bool>
+    <color name="achievment_hea_bg">#F3F2F2</color>
+    <color name="action_background_color">#ededed</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="adtopic_item_title">#666666</color>
+    <color name="adtopic_item_type_1">#FF6D6D</color>
+    <color name="adtopic_item_type_2">#0AB2FE</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="bantouming">#88000000</color>
+    <color name="bg_color_login">#F5F5F5</color>
+    <color name="bg_create_topic_pressed">#00a5f5</color>
+    <color name="biz_audio_progress_bg">#00b2ff</color>
+    <color name="biz_audio_progress_first">#ffffff</color>
+    <color name="biz_audio_progress_second">#6b6666</color>
+    <color name="black">#000000</color>
+    <color name="black_0">#00000000</color>
+    <color name="black_125">#7D000000</color>
+    <color name="black_180">#B4000000</color>
+    <color name="black_255">#FF000000</color>
+    <color name="black_50">#32000000</color>
+    <color name="black_70">#46000000</color>
+    <color name="black_a10_color">#1a000000</color>
+    <color name="blue">#ee67bfdf</color>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="bottom_text_color">#b0b0b0</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="cell_active_state">#FE6D4C</color>
+    <color name="cell_divider">#000000</color>
+    <color name="check_more_topic">#666666</color>
+    <color name="cn_login_regist_color">#323740</color>
+    <color name="cn_plan_source_background">#FBFBFB</color>
+    <color name="cn_progress_background_color">#d3d3d3</color>
+    <color name="cn_progress_bar_default_color">#e0e0e0</color>
+    <color name="cn_session_play_item_background_color">#ffffffff</color>
+    <color name="cn_session_play_item_id_color">#a7a7a7</color>
+    <color name="cn_session_play_progress_default_color">#e5e5e5</color>
+    <color name="cn_session_play_progress_select_color">#0fb4f9</color>
+    <color name="cn_session_play_seekbar_background_color">#D8D8D8</color>
+    <color name="cn_session_play_transparent">#E5F9FAFA</color>
+    <color name="cn_yoga_theme_color">#F1F1F1</color>
+    <color name="color_recomment">#0fb4f9</color>
+    <color name="color_recomment_splite">#D9D9D9</color>
+    <color name="color_red_text">#FFFF99</color>
+    <color name="context_text_color">#f8f8f8</color>
+    <color name="create_topic_hint">#c8c8c8</color>
+    <color name="default_bg">#aa000000</color>
+    <color name="default_color">#f6f7f7</color>
+    <color name="detail_link">#1497FF</color>
+    <color name="dialog_back_color">#00000000</color>
+    <color name="divider_color">#55504a</color>
+    <color name="dwt_sdt">#0fb4f9</color>
+    <color name="empty_text_color">#c8c8c8</color>
+    <color name="equ_color">#FE9840</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="first_bottom_text_color">#606060</color>
+    <color name="float_transparent">#66000000</color>
+    <color name="forums_boads_item_back">#32aeaeae</color>
+    <color name="forums_content">#C8C8C8</color>
+    <color name="forums_title">#333333</color>
+    <color name="gold">#29abe2</color>
+    <color name="gray">#ff666666</color>
+    <color name="gray_background">#eeeeee</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="gray_line_color">#ecedec</color>
+    <color name="green">#23cf34</color>
+    <color name="grey">#FF909090</color>
+    <color name="hint_kt_suc">#FA862A</color>
+    <color name="hint_text_color_gray">#88888888</color>
+    <color name="hui">#C3C3C3</color>
+    <color name="huiyuan_text_bg_nomel">#838088</color>
+    <color name="huiyuan_text_bg_press">#FD7E10</color>
+    <color name="info_bg_color">#F8E370</color>
+    <color name="info_text_color">#000000</color>
+    <color name="inside_color">#979797</color>
+    <color name="ksw_md_ripple_checked">#33019285</color>
+    <color name="ksw_md_ripple_normal">#1E000000</color>
+    <color name="ksw_md_solid_checked">#019285</color>
+    <color name="ksw_md_solid_checked_disable">#aaaaaa</color>
+    <color name="ksw_md_solid_disable">#FFFFFF</color>
+    <color name="ksw_md_solid_normal">#ECECEC</color>
+    <color name="ksw_md_solid_shadow">#33000000</color>
+    <color name="launcher_item_normal">#9B9B9B</color>
+    <color name="launcher_item_select">#393a3f</color>
+    <color name="like_tx">#EE5F5F</color>
+    <color name="line_color">#E5E5E5</color>
+    <color name="list_bg">#f9fafa</color>
+    <color name="list_divider_line">#d9d9d9</color>
+    <color name="list_item_font_color">#000000</color>
+    <color name="list_title_color">#dadada</color>
+    <color name="listview">#FAFAFA</color>
+    <color name="lite_blue">#4E78A0</color>
+    <color name="main_color">#393a3f</color>
+    <color name="main_title_text_normal">#858585</color>
+    <color name="main_title_text_select">#ffffffff</color>
+    <color name="memberdescition_title">#EBEBEB</color>
+    <color name="memer_actionbar_back">#33b5e5</color>
+    <color name="memer_actionbar_title">#f9fafaff</color>
+    <color name="memer_menu_back">#269eca</color>
+    <color name="memer_menu_line">#257a9a</color>
+    <color name="menu_left_item_select">#EEEEEE</color>
+    <color name="menu_left_item_text_normal">#000000</color>
+    <color name="menu_left_item_text_select">#54B0E9</color>
+    <color name="musiccatagory">#ffffff</color>
+    <color name="musiccatagoryed">#ffffff</color>
+    <color name="new_background_color">#ffffff</color>
+    <color name="new_gray">#bcbcbc</color>
+    <color name="new_red">#f7461c</color>
+    <color name="new_text_gray">#999999</color>
+    <color name="nomel_actionbar_text_color">#B4FFFFFF</color>
+    <color name="normal_color">#ffffffff</color>
+    <color name="noti_color">#f6f7f7</color>
+    <color name="orange">#E47833</color>
+    <color name="oranger_title">#ff7f00</color>
+    <color name="p_other_text_bg_nomel">#00A6EA</color>
+    <color name="p_rank_count">#FD7E10</color>
+    <color name="page_content">#ececec</color>
+    <color name="payinfo_js">#c1c1c1</color>
+    <color name="pb_gray_background">#ececec</color>
+    <color name="plan_finish_dialog">#999999</color>
+    <color name="plan_finished">#64CE2C</color>
+    <color name="plan_list_item_top_bg">#1E000000</color>
+    <color name="plan_missed">#FE7258</color>
+    <color name="plan_nomel">#A5A5A5</color>
+    <color name="play_control_background">#d1d1d1</color>
+    <color name="play_titel_color">#add2ff</color>
+    <color name="pressed_color">#0099de</color>
+    <color name="qiandao_back">#cfeaff</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+    <color name="red_color_vip">#FD7E10</color>
+    <color name="renwew_vip_titlebar">#fe7511</color>
+    <color name="reply_bg">#EEEEEE</color>
+    <color name="score">#f66130</color>
+    <color name="search_bg_boder">#CCCCCC</color>
+    <color name="search_keyword">#333333</color>
+    <color name="select_color">#00b2ff</color>
+    <color name="session_download_state_border">#AEB3BC</color>
+    <color name="session_item_text_color">#595959</color>
+    <color name="session_time_text_color">#01a4b3</color>
+    <color name="setting_click_color">#000000</color>
+    <color name="setting_click_press">#FFB400</color>
+    <color name="setting_default_color">#999999</color>
+    <color name="share_code_text_color">#F8771B</color>
+    <color name="shen_color_gray">#04000000</color>
+    <color name="sign_up_color">#58bf5a</color>
+    <color name="split_line">#E7E7E7</color>
+    <color name="splite_e6">#f0f0f0</color>
+    <color name="state_back">#59c3f5</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="swipe_blue_bright">#ff00ddff</color>
+    <color name="swipe_green_light">#ff99cc00</color>
+    <color name="swipe_orange_light">#ffffbb33</color>
+    <color name="swipe_red_light">#ffff4444</color>
+    <color name="tab_nomel_text_color">#333333</color>
+    <color name="tab_pressed">#00aaf7</color>
+    <color name="tab_select_color">#00AAF7</color>
+    <color name="text_color_gray">#888888</color>
+    <color name="text_select_bg">#bad9ff</color>
+    <color name="title_bg_color">#298CCF</color>
+    <color name="title_second_text_color">#808080</color>
+    <color name="toast_bg_60">#96000000</color>
+    <color name="toast_bg_80">#CD000000</color>
+    <color name="topic_order">#333333</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_background">#50000000</color>
+    <color name="upload_post_back">#f5f5f5</color>
+    <color name="upload_post_color">#000000</color>
+    <color name="upload_post_line">#cccccc</color>
+    <color name="user_count_red">#ff6767</color>
+    <color name="user_line_color_gray">#d6d6d6</color>
+    <color name="user_name">#5fbffb</color>
+    <color name="user_text_color_black">#444444</color>
+    <color name="user_text_color_gray">#777777</color>
+    <color name="vip_pressed_color">#dc6a1f</color>
+    <color name="vip_quartar">#FC535E</color>
+    <color name="vip_select_color">#F57623</color>
+    <color name="vip_text_bg_nomel">#E55A5A</color>
+    <color name="vip_text_bg_nomel_1">#6ccc59</color>
+    <color name="vote_submit_orange">#ff864e</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+    <color name="white">#ffffff</color>
+    <color name="white_70">#BCFFFFFF</color>
+    <color name="white_80">#96ffffff</color>
+    <color name="white_normal">#ffffffff</color>
+    <color name="write_30">#1EFFFFFF</color>
+    <color name="write_60">#3CFFFFFF</color>
+    <color name="yulequan_bou_item_uname">#333333</color>
+    <color name="yulequan_content_null">#AAABAC</color>
+    <color name="yulequan_item_bg_line">#DDDDDD</color>
+    <color name="yulequan_item_come_from">#0fb4f9</color>
+    <color name="yulequan_item_image_count_bg">#40311C</color>
+    <color name="yulequan_item_like">#FF7F00</color>
+    <color name="yulequan_item_pressed">#f5f5f5</color>
+    <color name="yulequan_item_title">#333333</color>
+    <color name="yulequan_item_uname">#999999</color>
+    <color name="yulequan_item_unlike">#999999</color>
+    <color name="yulequan_splite">#f0f0f0</color>
+    <color name="yulequan_splite_border">#eeeeee</color>
+    <color name="yulequan_splite_new">#e5e5e5</color>
+    <color name="yulequan_write">#FFFFFF</color>
+    <color name="yulequan_write_10">#19FFFFFF</color>
+    <declare-styleable name="CirCleRefreshLayout"><attr format="color" name="AniBackColor"/><attr format="color" name="AniForeColor"/><attr format="integer" name="CircleSmaller"/></declare-styleable>
+    <declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth"/></declare-styleable>
+    <declare-styleable name="CropImageView"><attr format="reference|color" name="highlightColor"/><attr format="boolean" name="showThirds"/><attr format="boolean" name="showCircle"/><attr name="showHandles">
+            <enum name="changing" value="0"/>
+            <enum name="always" value="1"/>
+            <enum name="never" value="2"/>
+        </attr></declare-styleable>
+    <declare-styleable name="CustomAudioIconView"><attr name="type">
+            <enum name="start" value="0"/>
+            <enum name="forward" value="1"/>
+            <enum name="backward" value="2"/>
+            <enum name="exit" value="3"/>
+            <enum name="mode" value="4"/>
+        </attr><attr format="color" name="color"/></declare-styleable>
+    <declare-styleable name="LinePageIndicator"><attr name="centered"/><attr name="unselectedColor"/><attr name="selectedColor"/><attr format="dimension" name="lineWidth"/><attr name="strokeWidth"/><attr format="dimension" name="gapWidth"/></declare-styleable>
+    <declare-styleable name="Rotate3dAnimation"><attr format="enum" name="rollType">
+            <enum name="x" value="0"/>
+            <enum name="y" value="1"/>
+            <enum name="z" value="2"/>
+        </attr><attr format="float" name="fromDeg"/><attr format="float" name="toDeg"/><attr format="fraction" name="pivotX"/><attr format="fraction" name="pivotY"/></declare-styleable>
+    <declare-styleable name="SlidingMenu"><attr name="rightPadding"/></declare-styleable>
+    <declare-styleable name="TitlePageIndicator"><attr format="dimension" name="clipPadding"/><attr format="color" name="footerColor"/><attr format="dimension" name="footerLineHeight"/><attr name="footerIndicatorStyle">
+            <enum name="none" value="0"/>
+            <enum name="triangle" value="1"/>
+            <enum name="underline" value="2"/>
+        </attr><attr format="dimension" name="footerIndicatorHeight"/><attr format="dimension" name="footerIndicatorUnderlinePadding"/><attr format="dimension" name="footerPadding"/><attr name="selectedColor"/><attr format="boolean" name="selectedBold"/><attr name="android:textColor"/><attr name="android:textSize"/><attr format="dimension" name="titlePadding"/><attr format="dimension" name="topPadding"/></declare-styleable>
+    <declare-styleable name="UnderlinePageIndicator"><attr format="boolean" name="fades"/><attr format="integer" name="fadeDelay"/><attr format="integer" name="fadeLength"/><attr name="selectedColor"/></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/></declare-styleable>
+    <dimen name="abc_action_bar_default_height">48dip</dimen>
+    <dimen name="about_appname_explain">4dp</dimen>
+    <dimen name="about_logo_appname">8dp</dimen>
+    <dimen name="action_bar_divider">12dp</dimen>
+    <dimen name="action_bar_height">48dp</dimen>
+    <dimen name="action_bar_title_size">18dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="ad_img_width">54dp</dimen>
+    <dimen name="ad_padding_bottom">12dp</dimen>
+    <dimen name="ad_text_margin">8dp</dimen>
+    <dimen name="ad_text_size">14dp</dimen>
+    <dimen name="advert_img_height">48dp</dimen>
+    <dimen name="advert_img_width">180dp</dimen>
+    <dimen name="behind_offset">160dp</dimen>
+    <dimen name="behind_offset_large">125dp</dimen>
+    <dimen name="behind_offset_xlarge">130dp</dimen>
+    <dimen name="bomb_img_height">160dp</dimen>
+    <dimen name="bomb_side_margin">16dp</dimen>
+    <dimen name="bombbox_padding">20dp</dimen>
+    <dimen name="boutique_font_size">16dp</dimen>
+    <dimen name="boutique_font_size_content">14dp</dimen>
+    <dimen name="btn_width">60dp</dimen>
+    <dimen name="button_frage_size">60dp</dimen>
+    <dimen name="check_more_topic">18dp</dimen>
+    <dimen name="cn_my_all_pst_margin">15dp</dimen>
+    <dimen name="cn_reccomend_session_size">30dp</dimen>
+    <dimen name="common_margin">12.0dip</dimen>
+    <dimen name="common_margin_10">10.0dip</dimen>
+    <dimen name="d_img_marginBottom">30dp</dimen>
+    <dimen name="d_img_width">160dp</dimen>
+    <dimen name="default_big_text_size">18dp</dimen>
+    <dimen name="default_big_text_size_dp">18dp</dimen>
+    <dimen name="default_list_big_text_size">15dp</dimen>
+    <dimen name="default_list_prompt_text_size">13dp</dimen>
+    <dimen name="default_nomol_text_size">14dp</dimen>
+    <dimen name="default_pic_width">250dp</dimen>
+    <dimen name="default_progress_img_padding">20dp</dimen>
+    <dimen name="default_progress_text_paddingtop">12dp</dimen>
+    <dimen name="default_small_text_size">12dp</dimen>
+    <dimen name="default_text_size">14dp</dimen>
+    <dimen name="default_text_size_dp">14dp</dimen>
+    <dimen name="defaulte_text_height">48dp</dimen>
+    <dimen name="detail_default_size">30dp</dimen>
+    <dimen name="download_height">20dp</dimen>
+    <dimen name="download_width">52dp</dimen>
+    <dimen name="dowonload_item">120dp</dimen>
+    <dimen name="dp_0">0.0dp</dimen>
+    <dimen name="dp_0_5">0.5dp</dimen>
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_100">100dp</dimen>
+    <dimen name="dp_11">11dp</dimen>
+    <dimen name="dp_116">116dp</dimen>
+    <dimen name="dp_12">12dp</dimen>
+    <dimen name="dp_120">120dp</dimen>
+    <dimen name="dp_124">124dp</dimen>
+    <dimen name="dp_13">13dp</dimen>
+    <dimen name="dp_130">130dp</dimen>
+    <dimen name="dp_14">14dp</dimen>
+    <dimen name="dp_140">140dp</dimen>
+    <dimen name="dp_144">144dp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+    <dimen name="dp_160">160dp</dimen>
+    <dimen name="dp_165">165dp</dimen>
+    <dimen name="dp_17">17dp</dimen>
+    <dimen name="dp_18">18dp</dimen>
+    <dimen name="dp_180">180dp</dimen>
+    <dimen name="dp_180_5">180.5dp</dimen>
+    <dimen name="dp_19">19dp</dimen>
+    <dimen name="dp_1_5">0.5dp</dimen>
+    <dimen name="dp_2">2dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_200">200dp</dimen>
+    <dimen name="dp_21">21dp</dimen>
+    <dimen name="dp_210">210dp</dimen>
+    <dimen name="dp_22">22dp</dimen>
+    <dimen name="dp_220">220dp</dimen>
+    <dimen name="dp_221">221dp</dimen>
+    <dimen name="dp_23">23dp</dimen>
+    <dimen name="dp_230">230dp</dimen>
+    <dimen name="dp_24">24dp</dimen>
+    <dimen name="dp_240">240dp</dimen>
+    <dimen name="dp_25">25dp</dimen>
+    <dimen name="dp_26">26dp</dimen>
+    <dimen name="dp_270">270dp</dimen>
+    <dimen name="dp_28">28dp</dimen>
+    <dimen name="dp_3">3dp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+    <dimen name="dp_300">300dp</dimen>
+    <dimen name="dp_31">31dp</dimen>
+    <dimen name="dp_32">32dp</dimen>
+    <dimen name="dp_326">326dp</dimen>
+    <dimen name="dp_34">34dp</dimen>
+    <dimen name="dp_340">340dp</dimen>
+    <dimen name="dp_35">35dp</dimen>
+    <dimen name="dp_36">36dp</dimen>
+    <dimen name="dp_4">4dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_42">42dp</dimen>
+    <dimen name="dp_44">44dp</dimen>
+    <dimen name="dp_45">45dp</dimen>
+    <dimen name="dp_46">46dp</dimen>
+    <dimen name="dp_47">47dp</dimen>
+    <dimen name="dp_48">48dp</dimen>
+    <dimen name="dp_5">5dp</dimen>
+    <dimen name="dp_50">50dp</dimen>
+    <dimen name="dp_55">55dp</dimen>
+    <dimen name="dp_56">56dp</dimen>
+    <dimen name="dp_6">6dp</dimen>
+    <dimen name="dp_60">60dp</dimen>
+    <dimen name="dp_61">61dp</dimen>
+    <dimen name="dp_62">62dp</dimen>
+    <dimen name="dp_65">65dp</dimen>
+    <dimen name="dp_7">7dp</dimen>
+    <dimen name="dp_70">70dp</dimen>
+    <dimen name="dp_72">72dp</dimen>
+    <dimen name="dp_74">74dp</dimen>
+    <dimen name="dp_75">75dp</dimen>
+    <dimen name="dp_76">76dp</dimen>
+    <dimen name="dp_78">78dp</dimen>
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_80">80dp</dimen>
+    <dimen name="dp_81">81dp</dimen>
+    <dimen name="dp_85">85dp</dimen>
+    <dimen name="dp_9">9dp</dimen>
+    <dimen name="dp_90">90dp</dimen>
+    <dimen name="dp_94">94dp</dimen>
+    <dimen name="dp_95">95dp</dimen>
+    <dimen name="drop_down_list_footer_progress_bar_height">30dp</dimen>
+    <dimen name="drop_down_list_header_padding_bottom">8dp</dimen>
+    <dimen name="drop_down_list_header_padding_top">8dp</dimen>
+    <dimen name="drop_down_list_header_progress_bar_height">30dp</dimen>
+    <dimen name="edit_city_select">180dp</dimen>
+    <dimen name="edit_city_select_margin_bottom">160dp</dimen>
+    <dimen name="edit_down_img_width">60dp</dimen>
+    <dimen name="edit_edit_min_width">80dp</dimen>
+    <dimen name="edit_gender_li_width">92dp</dimen>
+    <dimen name="edit_gender_text_height">30dp</dimen>
+    <dimen name="edit_gender_text_width">46dp</dimen>
+    <dimen name="edit_head_img_height">20dp</dimen>
+    <dimen name="edit_head_img_width">16dp</dimen>
+    <dimen name="edit_height">36dp</dimen>
+    <dimen name="edit_img_width_height">72dp</dimen>
+    <dimen name="edit_padding_right_size">22dp</dimen>
+    <dimen name="edit_padding_size">10dp</dimen>
+    <dimen name="edit_re_height">130dp</dimen>
+    <dimen name="edit_take_img_margin">48dp</dimen>
+    <dimen name="edit_take_img_width_height">24dp</dimen>
+    <dimen name="f_img_height">48dp</dimen>
+    <dimen name="f_img_marginTop">120dp</dimen>
+    <dimen name="f_img_width">180dp</dimen>
+    <dimen name="find_edit_pading_left">21dp</dimen>
+    <dimen name="find_item_img_size">18dp</dimen>
+    <dimen name="find_padding_left">12dp</dimen>
+    <dimen name="find_padding_top">48dp</dimen>
+    <dimen name="forums_contain_margin">8dp</dimen>
+    <dimen name="forums_contain_time_size">13dp</dimen>
+    <dimen name="forums_contain_title_size">14dp</dimen>
+    <dimen name="forums_content">15dp</dimen>
+    <dimen name="forums_content_small">12dp</dimen>
+    <dimen name="forums_list_divider">4dp</dimen>
+    <dimen name="forums_listview_margin">8dp</dimen>
+    <dimen name="forums_oparetion_image_size">20dp</dimen>
+    <dimen name="forums_oparetion_image_size_big">50dp</dimen>
+    <dimen name="forums_oparetion_margin">16dp</dimen>
+    <dimen name="forums_oparetion_width">70dp</dimen>
+    <dimen name="forums_title">16dp</dimen>
+    <dimen name="head_contain_margin">8dp</dimen>
+    <dimen name="head_contain_size">60dp</dimen>
+    <dimen name="head_icon_size">48dp</dimen>
+    <dimen name="head_img_width">95dp</dimen>
+    <dimen name="head_img_width_new">70dp</dimen>
+    <dimen name="head_vip_size">16dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="img_defailt_size">30dp</dimen>
+    <dimen name="img_small_size">20dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="ksw_md_thumb_ripple_size">42dp</dimen>
+    <dimen name="ksw_md_thumb_shadow_inset">11dp</dimen>
+    <dimen name="ksw_md_thumb_shadow_inset_bottom">10dp</dimen>
+    <dimen name="ksw_md_thumb_shadow_inset_top">11dp</dimen>
+    <dimen name="ksw_md_thumb_shadow_offset">2dp</dimen>
+    <dimen name="ksw_md_thumb_shadow_size">21dp</dimen>
+    <dimen name="ksw_md_thumb_solid_inset">11dp</dimen>
+    <dimen name="ksw_md_thumb_solid_size">20dp</dimen>
+    <dimen name="less_tab_size">34dp</dimen>
+    <dimen name="line_item">1px</dimen>
+    <dimen name="list_item_adtpic_desc">18dp</dimen>
+    <dimen name="list_item_adtpic_title">16dp</dimen>
+    <dimen name="list_item_come_from">16dp</dimen>
+    <dimen name="list_item_comment_boss">10dp</dimen>
+    <dimen name="list_item_comment_content">16dp</dimen>
+    <dimen name="list_item_comment_name">14dp</dimen>
+    <dimen name="list_item_comment_time">12dp</dimen>
+    <dimen name="list_item_deal_recomment">16dp</dimen>
+    <dimen name="list_item_f_name">16dp</dimen>
+    <dimen name="list_item_height">75dp</dimen>
+    <dimen name="list_item_image_count">12dp</dimen>
+    <dimen name="list_item_image_h">120dp</dimen>
+    <dimen name="list_item_like_count">14dp</dimen>
+    <dimen name="list_item_recomment_des">18dp</dimen>
+    <dimen name="list_item_recomment_name">20dp</dimen>
+    <dimen name="login_button_margin">16dp</dimen>
+    <dimen name="login_img_sdk_width">48dp</dimen>
+    <dimen name="main_left_bar_width">0dp</dimen>
+    <dimen name="media_controller_bottom_margin">12dip</dimen>
+    <dimen name="media_controller_button_height">52dip</dimen>
+    <dimen name="media_controller_button_width">71dip</dimen>
+    <dimen name="media_controller_seekbar_height">32dip</dimen>
+    <dimen name="media_controller_seekbar_width">32dip</dimen>
+    <dimen name="media_controller_text_size">14sp</dimen>
+    <dimen name="media_controller_top_margin">80dip</dimen>
+    <dimen name="media_controller_view_height">48dip</dimen>
+    <dimen name="music_button_pading_size">10dp</dimen>
+    <dimen name="music_item_size">42dp</dimen>
+    <dimen name="my_space_img_height">60dp</dimen>
+    <dimen name="nomel_dp_12">12dp</dimen>
+    <dimen name="nomel_dp_14">14dp</dimen>
+    <dimen name="nomel_dp_15">15dp</dimen>
+    <dimen name="nomel_dp_16">16dp</dimen>
+    <dimen name="nomel_dp_17">17dp</dimen>
+    <dimen name="nomel_dp_18">18dp</dimen>
+    <dimen name="nomel_dp_19">19dp</dimen>
+    <dimen name="nomel_dp_20">20dp</dimen>
+    <dimen name="nomel_list_item_content">12dp</dimen>
+    <dimen name="nomel_list_item_notify_time">11dp</dimen>
+    <dimen name="nomel_list_item_title">14dp</dimen>
+    <dimen name="nomel_slidingtabstrip_height">45dp</dimen>
+    <dimen name="nomel_text_size">15dp</dimen>
+    <dimen name="pading_ring_size">16dp</dimen>
+    <dimen name="page_margin">5dp</dimen>
+    <dimen name="pay_with_cash_margin_top">20dp</dimen>
+    <dimen name="plan_classify_title">14dp</dimen>
+    <dimen name="plan_classify_title_height">35dp</dimen>
+    <dimen name="plan_partise_time_text_size">14dp</dimen>
+    <dimen name="plate_title_height">48dp</dimen>
+    <dimen name="plate_title_height_new">35dp</dimen>
+    <dimen name="pop_default_size">160dp</dimen>
+    <dimen name="popunwindow_height">218dp</dimen>
+    <dimen name="recomment_list_hint">14dp</dimen>
+    <dimen name="red_img_height">56dp</dimen>
+    <dimen name="screen_sp">400dp</dimen>
+    <dimen name="search_keyword">16dp</dimen>
+    <dimen name="session_desc_textsize">13dp</dimen>
+    <dimen name="session_grid_item_height">124dp</dimen>
+    <dimen name="session_grid_item_width">165dp</dimen>
+    <dimen name="session_status_bar_height">80dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="share_img_width">60dp</dimen>
+    <dimen name="share_mainlayout_left_right_padding">26dp</dimen>
+    <dimen name="share_mainlayout_top_padding">-150dp</dimen>
+    <dimen name="share_pic_padding">34dp</dimen>
+    <dimen name="share_sign_mainlayout_left_right_padding">32dp</dimen>
+    <dimen name="share_sign_pic_padding">12dp</dimen>
+    <dimen name="sp_10">10dp</dimen>
+    <dimen name="sp_11">11dp</dimen>
+    <dimen name="sp_12">12dp</dimen>
+    <dimen name="sp_13">13dp</dimen>
+    <dimen name="sp_14">14dp</dimen>
+    <dimen name="sp_15">15dp</dimen>
+    <dimen name="sp_16">16dp</dimen>
+    <dimen name="sp_17">17dp</dimen>
+    <dimen name="sp_18">18dp</dimen>
+    <dimen name="splash_dec_text">10dp</dimen>
+    <dimen name="splash_dec_text_margin_bottom">20dp</dimen>
+    <dimen name="splash_img_marginTop">90dp</dimen>
+    <dimen name="splsh_top_h">70dp</dimen>
+    <dimen name="splsh_top_w">187dp</dimen>
+    <dimen name="start_button_plan">40dp</dimen>
+    <dimen name="start_button_plan_layout">80dp</dimen>
+    <dimen name="start_button_plan_layout_mi">80dp</dimen>
+    <dimen name="start_button_plan_mi">40dp</dimen>
+    <dimen name="tabStrip_height_size">48dp</dimen>
+    <dimen name="tag_corner_radius">20.0dip</dimen>
+    <dimen name="tag_horizontal_spacing">8.0dip</dimen>
+    <dimen name="tag_vertical_spacing">10.0dip</dimen>
+    <dimen name="text_create_topic">20dp</dimen>
+    <dimen name="text_search_key">16dp</dimen>
+    <dimen name="text_send_reply">14dp</dimen>
+    <dimen name="topic_order">20dp</dimen>
+    <dimen name="user_img_frame_size">65dp</dimen>
+    <dimen name="user_img_frame_size_bg">62dp</dimen>
+    <dimen name="user_img_size">60dp</dimen>
+    <dimen name="user_small_img_size">44dp</dimen>
+    <dimen name="v_img_width">15dp</dimen>
+    <dimen name="view_margin_top_line">30dp</dimen>
+    <dimen name="view_padding">6dp</dimen>
+    <dimen name="view_small_padding">1dp</dimen>
+    <dimen name="vip_icon">18dp</dimen>
+    <dimen name="vip_img_size">36dp</dimen>
+    <dimen name="vip_img_width">18dp</dimen>
+    <dimen name="wel_button_width">48dp</dimen>
+    <dimen name="wel_img_text_height">80dp</dimen>
+    <dimen name="wel_img_text_sigle_height">24dp</dimen>
+    <dimen name="wel_img_text_width">220dp</dimen>
+    <dimen name="wel_img_width_height">300dp</dimen>
+    <dimen name="wel_padding_bottom">75dp</dimen>
+    <dimen name="wel_text_margin">30dp</dimen>
+    <dimen name="wel_text_size">14dp</dimen>
+    <dimen name="ylq_item_like">40dp</dimen>
+    <dimen name="yoga_plan_card_grid_item">140dp</dimen>
+    <integer name="guide_size">0</integer>
+    <integer name="pageview_height">4</integer>
+    <integer name="pageview_width">9</integer>
+    <integer name="plan_grid_item_h">86</integer>
+    <integer name="plan_grid_item_w">31</integer>
+    <integer name="title_bar_height">48</integer>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">预约挂号</string>
+    <string name="get_photo">拍摄照片</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login_number">请输入企业账号</string>
+    <string name="login_pswd">请输入密码(默认为企业账号)</string>
+    <string name="query_number">请输入企业经营许可账号</string>
+    <string name="see_more">查看更多</string>
+    <string name="select_page_text">张</string>
+    <string name="the_more_select">最多选择</string>
+    <string name="tip_query">温馨提示：\n例如某汽车维修企业的许可证号为：陕交运管许可X QⅠ字610104/0001号，则登录账号和密码均为6101040001;例如某汽车维修企业的许可证号为：D1043;则登录账号和密码均为D1043；默认的初始密码和账号相同。
+</string>
+    <string name="title_activity_course_message">CourseMessageActivity</string>
+    <string name="title_activity_creat">CreatActivity</string>
+    <string name="title_activity_house_message">HouseMessageActivity</string>
+    <string name="title_activity_introduce">IntroduceActivity</string>
+    <string name="title_activity_location">LocationActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_login_log_message">LoginLogMessageActivity</string>
+    <string name="title_activity_notice_message">NoticeMessageActivity</string>
+    <string name="title_activity_order">OrderActivity</string>
+    <string name="title_activity_pay_message">PayMessageActivity</string>
+    <string name="title_activity_person_add">PersonAddActivity</string>
+    <string name="title_activity_person_title">PersonTitleActivity</string>
+    <string name="title_activity_query">QueryActivity</string>
+    <string name="title_activity_report_complaint">ReportComplaintActivity</string>
+    <string name="title_activity_report_person">ReportPersonActivity</string>
+    <string name="title_activity_report_safe">ReportSafeActivity</string>
+    <string name="title_activity_select_images">SelectImagesActivity</string>
+    <string name="title_activity_show_create_pictures">ShowCreatePicturesActivity</string>
+    <string name="title_activity_show_picture">ShowPictureActivity</string>
+    <string name="title_activity_study_time_message">StudyTimeMessageActivity</string>
+    <string name="title_activity_verification_message">VerificationMessageActivity</string>
+    <string name="title_activity_year_result">YearResultActivity</string>
+    <string name="xlistview_footer_hint_end">==到底了==</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_header_hint_error">==加载错误，点击重试==</string>
+    <string name="xlistview_header_hint_loading">努力加载中...</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_normal_up">上拉刷新</string>
+    <string name="xlistview_header_hint_ready">释放更新</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <style name="ActionSheetDialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/actionsheet_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/actionsheet_dialog_out</item>
+    </style>
+    <style name="ActionSheetDialogStyle" parent="@android:style/Theme.Dialog">
+
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 浮于Activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog以外的区域模糊效果 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Dialog进入及退出动画 -->
+        <item name="android:windowAnimationStyle">@style/ActionSheetDialogAnimation</item>
+    </style>
+    <style name="AlertDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 模糊 -->
+    </style>
+    <style name="CustomProgessBarStyle">
+        <item name="android:minWidth">@dimen/dp_30</item>
+        <item name="android:maxWidth">@dimen/dp_30</item>
+        <item name="android:minHeight">@dimen/dp_30</item>
+        <item name="android:maxHeight">@dimen/dp_30</item>
+    </style>
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="Dialog_image" parent="android:style/Theme.Dialog">
+
+        <!-- 背景颜色及透明程度 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 是否有标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="WelcomeActivityStyle" parent="android:Theme.Light">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="all_action_bar_back">
+        <item name="android:paddingBottom">@dimen/dp_14</item>
+        <item name="android:paddingTop">@dimen/dp_14</item>
+        <item name="android:paddingLeft">@dimen/dp_14</item>
+        <item name="android:paddingRight">@dimen/dp_23</item>
+        <item name="android:src">@drawable/new_back_button_selector</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_width">@dimen/action_bar_height</item>
+        <item name="android:layout_height">@dimen/action_bar_height</item>
+    </style>
+    <style name="all_action_bar_title">
+        <item name="android:textColor">@color/check_more_topic</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/abc_action_bar_default_height</item>
+    </style>
+    <style name="btn_custom_style">
+        <item name="android:layout_width">20dip</item>
+        <item name="android:layout_height">20dip</item>
+        <item name="android:layout_gravity">center|right</item>
+    </style>
+    <style name="common_dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="custom_text">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#00AAF7</item>
+    </style>
+    <style name="fullwidthDialog" parent="@android:style/Theme.Holo.DialogWhenLarge">
+
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="index_image_btn_pre">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="index_image_btn_pre_imagebtn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/dp_20</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="index_image_btn_pre_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/dp_10</item>
+        <item name="android:textColor">@color/check_more_topic</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">@dimen/sp_13</item>
+    </style>
+    <style name="pay_vip_icon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="plan_list_style">
+        <item name="android:cacheColorHint">#ffffff</item>
+        <!-- 取消listview的上边和下边有黑色的阴影 -->
+        <item name="android:fadingEdge">none</item>
+        <!-- 取消默认会显示选中listview的item底色 -->
+        <item name="android:listSelector">#00000000</item>
+        <!-- <item name="android:fastScrollEnabled">true</item> -->
+        <item name="android:scrollingCache">false</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:divider">@color/cn_yoga_theme_color</item>
+        <item name="android:dividerHeight">@dimen/dp_1_5</item>
+    </style>
+    <style name="player_controller_divider">
+        <item name="android:background">#cccccc</item>
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_marginBottom">17dp</item>
+        <item name="android:layout_marginTop">17dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="text_action_bar_right">
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">@drawable/text_button_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/default_text_size</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/abc_action_bar_default_height</item>
+    </style>
+    <style name="video_progressbar_style">
+        <item name="android:maxWidth">43.0dip</item>
+        <item name="android:maxHeight">43.0dip</item>
+        <item name="android:indeterminateDrawable">@anim/biz_news_detailpage_loading_large_anim</item>
+        <item name="android:minWidth">43.0dip</item>
+        <item name="android:minHeight">43.0dip</item>
+    </style>
+    <style name="vote_submit_btn_image">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+    </style>
+    <style name="vote_submit_btn_linear">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="vote_submit_btn_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="vote_submit_listview">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:divider">#00000000</item>
+        <item name="android:dividerHeight">2dp</item>
+        <item name="android:listSelector">#00000000</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:fadingEdge">none</item>
+    </style>
+    <style name="vote_submit_question">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="vote_submit_title">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#7f7a62</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+</resources>

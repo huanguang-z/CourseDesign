@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color_login"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".UnLoginActiviy">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:gravity="center_vertical|center_horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/todayInfor"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/icon_apply_tip" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:text="当日挂号"
+                android:textColor="#333333"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/applyInfor"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/icon_apply_tip" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="预约挂号"
+                android:layout_marginTop="10dp"
+                android:textColor="#333333"
+                android:textSize="14dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/pay_zhifubao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:lineSpacingExtra="2dp"
+            android:text="友情提醒：\n
+1.  未支付30分钟内不能继续预约。
+2.  微信挂号成功后，如需退号，请在就诊前一天23点前在微信个人中心取消挂号。
+3. 退号过程中如遇问题，请拨打电话029-87441536。
+4. 每天上午6点放第14天的号源。
+5. 退卡后用户需及时“解除绑定”，新办卡用户需重新“绑卡”。"
+            android:textColor="#72c557" />
+    </LinearLayout>
+
+</LinearLayout>

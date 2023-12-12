@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color_login"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="#ffffff">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical">
+
+
+            <EditText
+                android:id="@+id/metName"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/mtvSearch"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="请输入查询信息"
+                android:paddingLeft="10dp"
+                android:textSize="14dp" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/mtvKeShiSearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+
+                    android:gravity="center_vertical"
+                    android:paddingRight="10dp"
+                    android:text="科室搜索"
+                    android:textColor="#333333"
+                    android:textSize="12dp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="20dp"
+                    android:background="#000"></View>
+
+                <TextView
+                    android:id="@+id/mtvJIbingSearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="疾病搜索"
+                    android:textColor="#333333"
+                    android:textSize="12dp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+
+        <ScrollView
+            android:id="@+id/mslview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent">
+
+
+                    <LinearLayout
+                        android:id="@+id/mllBuJu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <fragment
+                            android:id="@+id/fragment_soft_image"
+                            android:name="com.pony.banner.CycleViewPager"
+                            android:layout_width="match_parent"
+                            android:layout_height="170dip"
+                            android:layout_marginTop="10dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:id="@+id/mrlNoPayOrder"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:visibility="gone">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:text="信息分类"
+                                    android:textColor="#666666"
+                                    android:textSize="16dp" />
+                            </RelativeLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1sp"
+                                android:background="@color/bg_color_login" />
+                        </LinearLayout>
+
+                        <com.pony.view.GridviewForScrollView
+                            android:id="@+id/mHotSoft"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="#ffffff"
+                            android:numColumns="5"
+                            android:visibility="gone"></com.pony.view.GridviewForScrollView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp">
+
+                                <TextView
+                                    android:id="@+id/mtvJindu"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:text="医疗常识"
+                                    android:textColor="#666666"
+                                    android:textSize="16dp" />
+                            </RelativeLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1sp"
+                                android:background="@color/bg_color_login" />
+                        </LinearLayout>
+
+                        <com.pony.view.ListviewForScrollView
+                            android:id="@+id/mListMessage"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#ffffff"
+                            android:divider="@color/bg_color_login"
+                            android:dividerHeight="1dp"
+                            android:listSelector="@drawable/listview"
+                            android:scrollbars="none"></com.pony.view.ListviewForScrollView>
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <ListView
+            android:id="@+id/mListSearchMessage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:visibility="gone"
+            android:layout_marginTop="5dp"
+            android:divider="@color/bg_color_login"
+            android:dividerHeight="1dp"
+            android:listSelector="@drawable/listview"
+            android:scrollbars="none"></ListView>
+
+    </RelativeLayout>
+</LinearLayout>

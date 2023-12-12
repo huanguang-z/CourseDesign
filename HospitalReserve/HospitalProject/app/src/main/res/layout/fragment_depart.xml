@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color_login"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <ListView
+            android:id="@+id/mDepartListMessage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:divider="@color/bg_color_login"
+            android:dividerHeight="1dp"
+            android:listSelector="@drawable/listview"
+            android:scrollbars="none" />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_marginLeft="1dp"
+            android:background="#f9f9f9"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/white">
+
+                <CheckBox
+                    android:id="@+id/cbleixing"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="类型"
+                    android:textColor="#666"
+                    android:textSize="12dp" />
+
+                <CheckBox
+                    android:id="@+id/cbtime"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:visibility="gone"
+                    android:button="@null"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="时间"
+                    android:textColor="#666"
+                    android:textSize="12dp" />
+
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ListView
+                    android:id="@+id/mDoctorListMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+
+                    android:divider="@color/bg_color_login"
+                    android:dividerHeight="1dp"
+                    android:listSelector="@drawable/listview"
+                    android:scrollbars="none" />
+
+                <ListView
+                    android:id="@+id/mTypeListMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:visibility="gone"
+                    android:divider="@color/bg_color_login"
+                    android:dividerHeight="1dp"
+                    android:listSelector="@drawable/listview"
+                    android:scrollbars="none" />
+
+
+                <ListView
+                    android:id="@+id/mTimeListMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:visibility="gone"
+                    android:divider="@color/bg_color_login"
+                    android:dividerHeight="1dp"
+                    android:listSelector="@drawable/listview"
+                    android:scrollbars="none" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

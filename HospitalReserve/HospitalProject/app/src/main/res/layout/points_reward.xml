@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res/com.dailyyoga.cn"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:background="#99000000"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="253dp"
+            android:layout_height="193dp"
+            android:background="@drawable/points_reward_bg" >
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="183dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="120dp"
+                android:includeFontPadding="false"
+                android:gravity="center"
+                android:lineSpacingMultiplier="1.2"
+                android:textColor="#666666"
+                android:textSize="15dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>
